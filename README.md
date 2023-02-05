@@ -11,6 +11,9 @@ The prefetch during model execution(forward and backward propagation),it drives 
 
 Data augmentation technique was used which is the process of artificially increasing the amount of data by generating new data points from points from existing data.Usually deep learning models require very huge amounts of data, practically collecting that huge amounts of data is very complex as it consumes lot of time and money.So, data augmentation has been done by random flip and random rotation.
 
+![image](https://user-images.githubusercontent.com/69798079/216807576-ac5d7cf7-43ac-4bbd-abfc-1ced4ca18fdb.png)
+
+
 The convolutional layers are the initial layers to pull out features from the image.It maintains the relationship between pixels by learning features using a small input data sequence.It is a mathematical term that takes two inputs, an image matrix and a kernel or filter.Kernel is a filter that is used to extractt the features from the images.
 
 ReLU is used in the CNN model over the other activation functions because it improves the neural networks by speeding up training.Also, the computation step of a ReLU is easy as all negative elements are set to 0.0 and no exponentials,no multiplication or division operations are involved.
